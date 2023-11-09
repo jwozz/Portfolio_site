@@ -1,0 +1,210 @@
+.hero {
+    background: white;
+    z-index: 10;
+    position: relative;
+}
+
+.hero-x {
+    padding-top: 100px;
+}
+
+.hero-c {
+    width: 70%;
+    margin: auto 0;
+    margin-left: 30px;
+    background: white;
+    padding: 20px 0;
+    box-sizing: border-box;
+}
+
+.hero-c h1 {
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+    margin-top: 0;
+}
+
+.hero-c h1 span {
+    color: rgb(0, 68, 255);
+}
+
+.hero-c p {
+    font-size: 17px;
+    color: rgb(0, 0, 0);
+    line-height: 25px;
+}
+
+.h-a {
+    background-image: linear-gradient( rgba(0, 68, 255, 0.85), rgba(0, 68, 255, 0.85)), url(ro.jpg);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 50px 0;
+}
+
+.h-a h1 {
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    margin-top: 0;
+}
+
+.h-a p {
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+    line-height: 23px;
+    margin: auto 15%;
+}
+
+.h-a button {
+    background: #000000;
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+    border: 2px solid #000000;
+    margin-top: 30px;
+    padding: 10px 20px;
+    text-transform: capitalize;
+    border-radius: 2px;
+    cursor: pointer;
+    outline: none;
+    font-weight: bold;
+}
+
+.h-a button a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.c1-f {
+    margin: 50px 30px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 0;
+}
+
+.c1-ff {
+    width: 48%;
+    margin-bottom: 40px;
+}
+
+.c1-ff:last-child {
+    margin-bottom: 0px;
+}
+
+.c1-ff .img {
+    height: 400px;
+    background: whitesmoke;
+}
+
+.c1-ff:nth-child(1) .img {
+    background-image: url(a21.png);
+    background-size: cover;
+}
+
+.c1-ff:nth-child(2) .img {
+    background-image: url(a17.png);
+    background-size: cover;
+}
+
+.c1-ff:nth-child(3) .img {
+    background-image: url(a18.png);
+    background-size: cover;
+}
+
+.c1-ff h1 {
+    font-size: 16px;
+    color: rgb(53, 53, 53);
+    font-style: italic;
+    font-family: serif;
+}
+
+.c1-ff a {
+    margin-top: 10px;
+    font-size: 15px;
+    color: rgb(0, 68, 255);
+    display: block;
+}
+
+.button {
+    text-align: center;
+}
+
+.z4-ff p {
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    line-height: 20px;
+    display: block;
+}
+
+.button {
+    text-align: center;
+    padding-top: 50px;
+}
+
+.button button {
+    background: #000000;
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+    border: 2px solid #000000;
+    margin: 50px 0;
+    padding: 10px 20px;
+    text-transform: capitalize;
+    border-radius: 20px;
+    cursor: pointer;
+    outline: none;
+    font-weight: bold;
+}
+
+.button button a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.button button:nth-child(2) {
+    background: transparent;
+    font-size: 15px;
+    color: rgb(0, 0, 0);
+    border: 2px solid #000000;
+    margin: 50px 0;
+    padding: 10px 20px;
+    text-transform: capitalize;
+    border-radius: 20px;
+    cursor: pointer;
+    outline: none;
+    font-weight: bold;
+}
+
+.button button:nth-child(2) a {
+    color: black;
+    text-decoration: none;
+}
+
+@media(max-width:900px) {
+    .c1-ff .img {
+        height: 300px;
+    }
+}
+
+@media(max-width:750px) {
+    .c1-ff .img {
+        height: 250px;
+    }
+}
+
+@media(max-width:600px) {
+    .h-a p {
+        margin-right: 2%;
+        margin-left: 2%;
+    }
+    .c1-ff {
+        width: 100%;
+    }
+    .c1-ff .img {
+        height: 320px;
+    }
+}
+
+@media(max-width:375px) {
+    .c1-ff .img {
+        height: 250px;
+    }
+}

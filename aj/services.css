@@ -1,0 +1,376 @@
+.hero {
+    background: white;
+    z-index: 10;
+    position: relative;
+}
+
+.hero-x {
+    padding-top: 100px;
+}
+
+.hero-c {
+    width: 70%;
+    margin: auto 0;
+    margin-left: 30px;
+    background: white;
+    padding: 20px 0;
+    box-sizing: border-box;
+}
+
+.hero-c h1 {
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+    margin-top: 0;
+}
+
+.hero-c h1 span {
+    color: rgb(0, 68, 255);
+}
+
+.h-a {
+    background-image: linear-gradient( rgba(0, 68, 255, 0.85), rgba(0, 68, 255, 0.85)), url(ap2.jpg);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 50px 0;
+}
+
+.h-a h1 {
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    margin-top: 0;
+}
+
+.h-a p {
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+    line-height: 23px;
+    margin: auto 15%;
+}
+
+.h-a button {
+    background: #000000;
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+    border: 2px solid #000000;
+    margin-top: 30px;
+    padding: 10px 20px;
+    text-transform: capitalize;
+    border-radius: 2px;
+    cursor: pointer;
+    outline: none;
+    font-weight: bold;
+}
+
+.h-a button a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.c1-f {
+    margin: 50px 30px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.c1-ff {
+    width: 23%;
+    margin-bottom: 40px;
+}
+
+.c1-ff .img {
+    height: 200px;
+    background: whitesmoke;
+}
+
+.c1-ff:nth-child(1) .img {
+    background-image: url(web10.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.c1-ff:nth-child(2) .img {
+    background-image: url(web14.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.c1-ff:nth-child(3) .img {
+    background-image: url(ecm.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.c1-ff:nth-child(4) .img {
+    background-image: url(web10.jpg);
+    background-size: cover;
+}
+
+.c1-ff:nth-child(5) .img {
+    background-image: url(web5.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.c1-ff:nth-child(6) .img {
+    background-image: url(crm.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.c1-ff:nth-child(7) .img {
+    background-image: url(a.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.c1-ff:nth-child(8) .img {
+    background-image: url(int6.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.c1-ff h1 {
+    font-size: 16px;
+    color: rgb(53, 53, 53);
+    font-style: italic;
+    font-family: serif;
+}
+
+.c1-ff p {
+    font-size: 15px;
+    color: black;
+    line-height: 23px;
+}
+
+.z4 {
+    height: auto;
+    padding: 30px 0;
+    background-image: linear-gradient( rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85)), url(a13.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.z4-box {
+    height: auto;
+    margin: auto 30px;
+}
+
+.z4-f h1 {
+    color: rgb(255, 255, 255);
+    font-size: 17px;
+    text-align: center;
+    margin: 0;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.z4-f h2 {
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    text-align: center;
+    margin: 0;
+    margin-top: 10px;
+    margin-bottom: 100px;
+}
+
+.z4-f {
+    width: 100%;
+    height: auto;
+    margin-bottom: 50px;
+    margin-top: 30px;
+}
+
+.z4-f:last-child {
+    width: 100%;
+    text-align: left;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.z4-ff {
+    margin-bottom: 30px;
+    width: 22%;
+    height: auto;
+}
+
+.z4-ff i {
+    color: #ffffff;
+    font-size: 16px;
+    font-family: sans-serif;
+    font-style: normal;
+}
+
+.z4-ff h1 {
+    color: rgb(255, 255, 255);
+    font-size: 17px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-left: 0;
+    text-align: left;
+}
+
+.z4-ff p {
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    line-height: 18px;
+    display: block;
+}
+
+.z7 {
+    height: auto;
+    width: 100%;
+    background: rgb(255, 255, 255);
+    padding: 50px 0;
+}
+
+.z7-bb {
+    height: auto;
+    margin: auto 30px;
+}
+
+.z7-bb h1 {
+    font-size: 17px;
+    color: rgb(0, 0, 0);
+    margin: 0;
+    margin-top: 0;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.z7-bb h2 {
+    font-size: 25px;
+    color: rgb(0, 0, 0);
+    margin: 0;
+    margin-top: 0;
+    margin-bottom: 70px;
+    text-align: center;
+}
+
+.z7-box {
+    width: 100%;
+    height: auto;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.z7-f {
+    width: 22%;
+    height: auto;
+    margin-bottom: 0px;
+    padding: 35px 0px;
+    padding-right: 15px;
+    box-sizing: border-box;
+}
+
+.z7-f h1 {
+    color: rgb(0, 0, 0);
+    font-size: 17px;
+    font-weight: bold;
+    margin: auto 0;
+    text-align: left;
+}
+
+.button {
+    text-align: center;
+}
+
+.button button {
+    background: #000000;
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+    border: 2px solid #000000;
+    margin: 20px 0;
+    margin-bottom: 60px;
+    padding: 10px 20px;
+    text-transform: capitalize;
+    border-radius: 20px;
+    cursor: pointer;
+    outline: none;
+    font-weight: bold;
+}
+
+.button button a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+@media(max-width:900px) {
+    .c1-f {
+        justify-content: flex-start;
+    }
+    .c1-ff {
+        width: 30%;
+        margin-right: 20px;
+    }
+    .z7-box {
+        justify-content: flex-start;
+    }
+    .z7-f {
+        width: 30%;
+        margin-right: 20px;
+    }
+}
+
+@media(max-width:750px) {
+    .c1-ff .img {
+        height: 150px
+    }
+    .z4-ff {
+        width: 48%;
+    }
+}
+
+@media(max-width:680px) {
+    .c1-f {
+        justify-content: space-between;
+    }
+    .c1-ff {
+        width: 48%;
+        margin-right: 0;
+    }
+    .z4-ff h1 {
+        margin-left: 0;
+    }
+    .z7-box {
+        justify-content: space-between;
+    }
+    .z7-f {
+        width: 45%;
+        margin-right: 0px;
+    }
+}
+
+@media(max-width:600px) {
+    .h-a p {
+        margin-right: 2%;
+        margin-left: 2%;
+    }
+    .z7-f:nth-child(6) {
+        border-bottom: none;
+    }
+}
+
+@media(max-width:510px) {
+    .c1-ff {
+        width: 100%;
+    }
+    .z4-ff {
+        width: 100%;
+    }
+}
+
+@media(max-width:450px) {
+    .z7-f {
+        width: 100%;
+    }
+    .z7-f:nth-child(7) {
+        border-bottom: none;
+    }
+}
